@@ -81,10 +81,8 @@ body {
 /* Section */
 .section {
 	position: absolute;
-	left: 10%;
-	right: 0;
 	top: 10%;
-	margin: 0 auto;
+	margin: 10%;
 	text-align: left;
 }
 
