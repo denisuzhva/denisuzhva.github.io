@@ -7,7 +7,11 @@
 		"1": "#e5e9f0"
 	},
 	"colors": {
-		"red": "#bf616a"
+		"red": "#bf616a",
+		"orange": "#d08770",
+		"yellow": "#ebcb8b",
+		"green": "#a3be8c",
+		"purple": "#b48ead"
 	}	
 }
 
