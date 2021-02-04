@@ -1,0 +1,35 @@
+/* Root */
+
+:root {
+	--black1: #3B4455;
+	--black2: #4c566a;
+	--white1: #E5E9F0;
+	--red: #BF616A;
+	--orange: #d08770;
+	--yellow: #ebcb8b;
+	--green: #a3be8c;
+	--purple: #b48ead;
+	--cyan: #8fbcbb;
+	--navbar-footer: 40px;
+}
+
+html { 
+	height: 100%; 
+	min-height: 100%;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	#font-family: "Fira Code", monospace;
+	color: var(--white1);
+	background: var(--black2);
+	position: relative;
+    height: 100%;
+	min-height: 100%;
+    margin: 0;
+	padding: 0;
+	position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+

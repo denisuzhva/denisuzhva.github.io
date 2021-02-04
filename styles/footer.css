@@ -1,0 +1,24 @@
+/* Footer */
+
+.footer {
+	position: relative;
+	top: var(--navbar-footer);
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: var(--navbar-footer);
+	color: var(--black2);
+  	background-color: var(--black1);
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer p {
+	#padding: calc(var(--navbar-footer) / 4) 0px;
+	margin: 0;
+}
+

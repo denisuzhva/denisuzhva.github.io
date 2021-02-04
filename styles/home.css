@@ -1,0 +1,11 @@
+/* Home styles */
+
+#greeting {
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+
+#name {
+	color: var(--green);
+}

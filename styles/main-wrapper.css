@@ -1,0 +1,12 @@
+/* Main wrapper */
+
+.wrapper {
+	top: var(--navbar-footer);
+	bottom: var(--navbar-footer);
+	min-height: calc(100% - 2 * var(--navbar-footer));
+	height: auto;
+	box-sizing: border-box;
+	position: relative;
+	padding: var(--navbar-footer);
+	margin: 0;
+}

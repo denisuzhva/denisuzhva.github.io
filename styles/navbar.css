@@ -1,0 +1,106 @@
+/* Navbar */
+
+.navbar {
+  	background-color: var(--black1);
+  	position: fixed; 
+	height: var(--navbar-footer);
+	overflow: hidden;
+  	top: 0px; 
+	left: 0px;
+  	width: 100%; 
+	z-index: 1;
+}
+
+.navlist {
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+
+.navlist-right {
+	float: right;
+}
+
+.navlist-left {
+	float: left;
+}
+
+.navlist .nav-item {
+	float: left;
+	height: var(--navbar-footer);
+	margin: 0;
+	display: block;
+}
+
+.nav-item a {
+	display: block;
+	padding: 0px 10px;
+	height: var(--navbar-footer);
+	margin: 0;
+	color: var(--white1);
+	line-height: var(--navbar-footer);
+	text-align: center;
+	text-decoration: none;
+}
+
+/*.nav-item:not(#dropper) a:hover {*/
+.nav-item a:hover {
+	color: var(--black1);
+    background: var(--white1);
+}
+
+#cv-item a {
+	color: var(--white1);
+    background: var(--red);
+}
+
+#cv-item a:hover {
+	color: var(--white1);
+    background: var(--cyan);
+}
+
+.navbar #dropper {
+	display: none;
+}
+.navbar #dropper a:after {
+	content: "☰";
+}
+
+/* mobile support */
+@media screen and (max-width: 600px) {
+	.navlist-left .nav-item:not(:first-child) {
+		display: none;
+	}
+	.navlist-right .nav-item {
+		display: none;
+	}
+	.navbar {
+		position: absolute;
+		display: block;
+	}
+	.navbar #dropper {
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 10%;
+		display: block;
+	}
+	.navbar.expanded-navbar {
+		height: auto;
+	}
+	.navbar.expanded-navbar .navlist {
+		display: block;
+		width: 90%;
+		float: none;
+	}
+	.navbar.expanded-navbar .nav-item {
+		display: block;
+		float: none;
+	}
+	.navbar.expanded-navbar .nav-item:not(#dropper) a {
+		text-align: left;
+	}
+	.navbar.expanded-navbar #dropper a:after {
+		content: "×";
+	}
+}
