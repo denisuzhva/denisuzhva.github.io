@@ -7,5 +7,9 @@
 }
 
 #name {
-	color: var(--green);
+	color: var(--yellow);
+}
+
+.job {
+	font-weight: bold;
 }
