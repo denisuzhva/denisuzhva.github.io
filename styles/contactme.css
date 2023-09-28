@@ -1,0 +1,41 @@
+/* Portfolio styles */
+
+.preliminary {
+	padding: 0;
+	margin: 0;
+	hyphens: auto;
+}
+
+.contact-list {
+	margin: 0;
+	padding: 0;
+}
+
+.contact {
+	margin: var(--navbar-footer);
+	background: var(--black1);
+	display: block;
+	height: auto;
+}
+
+.contact a {
+	border-color: var(--yellow);
+	border-style: solid;
+	box-sizing: border-box;
+	padding: 10px;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: var(--white2);
+	display: inline-block;
+	width: 100%;
+}
+
+.contact a:hover {
+	border-color: var(--black1);
+}
+
+.contact .keywords {
+	color: var(--green);
+}
